@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Offside</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <section>
+      <div class="field">
+
+        <div id="board">
+          <div id="isOffside"></div>
+        </div>
+
+        <div class="corners">
+          <div class="left-top corner"></div>
+          <div class="left-bottom corner"></div>
+          <div class="right-top corner"></div>
+          <div class="right-bottom corner"></div>
+        </div>
+
+        <div class="mid-outer">
+          <div class="mid-line"></div>
+        </div>
+        <div class="mid-outer">
+          <div class="mid-circle-inner"></div>
+        </div>
+        <div class="mid-outer">
+          <div class="mid-circle-bold"></div>
+        </div>
+
+        <div class="left-penalty left-outer-area"></div>
+        <div class="left-penalty left-inner-area"></div>
+        <div class="left-penalty left-penalty-circle"></div>
+        <div class="left-penalty left-penalty-outer-half-circle"></div>
+
+        <div class="right-penalty right-outer-area"></div>
+        <div class="right-penalty right-inner-area"></div>
+        <div class="right-penalty right-penalty-circle"></div>
+        <div class="right-penalty right-penalty-outer-half-circle"></div>
+        
+        <img src="ball.png" id="ball" width="72" class="ball"></img>
+
+        <div class="teams">
+          <div class="team-red">
+            <div class="player player-red player-red-gk goalkeeper">
+              <span>GK</span>
+            </div>
+            <div id="red-p-1" class="player player-p-red player-1"></div>
+            <div id="red-p-2" class="player player-p-red player-2"></div>
+            <div id="red-p-3" class="player player-p-red player-3"></div>
+          </div>
+          <div class="team-blue">
+            <div class="player player-blue player-blue-gk goalkeeper">
+              <span>GK</span>
+            </div>
+            <div id="blue-p-1" class="player player-p-blue player-1"></div>
+            <div id="blue-p-2" class="player player-p-blue player-2"></div>
+            <div id="blue-p-3" class="player player-p-blue player-3"></div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+  </body>
+</html>
